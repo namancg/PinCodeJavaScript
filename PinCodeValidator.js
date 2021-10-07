@@ -10,3 +10,8 @@ pinCodeRegEx = RegExp('^[0-9]{6}$')
 arguments.forEach(pinCode => {
 console.log(pinCode+"",pinCodeRegEx.test(pinCode))
  });
+
+ pinCodeRegEx = RegExp('^[0-9]{6}$')
+arguments.forEach(pinCode => {
+console.log(pinCode+"",pinCodeRegEx.test(pinCode))
+ });
